@@ -40,7 +40,7 @@ header p {
     text-shadow: 2px 2px 4px black;
 }
 
-nav {
+/* nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +66,7 @@ nav li {
     display: inline-block;
     margin: 0 16px;
 
-}
+} */
 
 .container {
     max-width: 900px;
@@ -97,6 +97,8 @@ nav li {
     font-size: 1.5em;
 }
 
+
+
 .menu ul {
     display: flex;
     flex-wrap: wrap;
@@ -117,7 +119,7 @@ nav li {
 
 .menu ul li span {
     display: block;
-}
+} 
 
 .dish-name {
     font-weight: 600;
@@ -138,6 +140,7 @@ nav li {
     right: 16px;
 }
 
+/* 
 a {
     color: #730217;
     text-decoration: none;
@@ -146,7 +149,7 @@ a {
 a:hover {
     color: #c80125;
     text-decoration: underline;
-}
+} */
 
 footer {
     display: flex;
@@ -178,7 +181,7 @@ table th {
     color: #8C2703;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
     margin: 8px 0;
     background-color: #0371A6;
     border: 0;
@@ -186,3 +189,4 @@ input[type="submit"] {
     padding: 8px;
     color: white;
 }
+ */
