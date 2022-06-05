@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:ital,wght@0,100;1,300;1,400&family=Tai+Heritage+Pro&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Tai Heritage Pro', serif;
+}
+
+
+h2{
+  color: #F25C05;
+}
+
+.text-italic {
+font-style: italic;
+}
+
+a{
+  color: #D95407;
+}
+
+a:hover{
+  color: #F27405;
+}
+
+a:visited{
+  color: #73532D;
+}
+
+a:active{
+  color: red;
+}
+
+header{
+  background-image: url("../images/pizza-vale.jpg");
+  min-height: 450px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header, h1{
+  font-size: 128px;
+  text-shadow: 2px 2px 4px black;
+  color :#D9C3A9;
+  font-family: 'Oleo Script', cursive;
+  margin: 0;
+}
+
+h1,h2{
+  font-family: 'Oleo Script', cursive;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto 0 auto;
+
+}
+
+.pizza ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pizza ul li {
+  margin: 8px 16px 8px 0;
+  padding: 12px;
+  width: 120px;
+  height: 60px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgb(228, 228, 228);
+  position: relative;
+}
+
+.pizza ul li span {
+  display: block;
+}
