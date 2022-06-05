@@ -1,45 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
     <head>
         <title>Pizza alla nutella</title>
+        <link rel="stylesheet" href="styles/stile.css" />
     </head>
     <body>
-        <img src="immagini/pizzanut.jpg" width="700">
-        <h1>Pizza alla nutella</h1>
-        <p>La pizza perfetta per la merenda</p>
-
+    
+    <!-- HEADER -->    
+        <header>
+            <h1>Pizza alla nutella</h1>
+            <p>La pizza perfetta per la merenda</p>
+        </header>
+    <!-- END HEADER -->  
+        
+          <nav>
+            <h1>THE NET PIZZA</h1>
+            <ul>
+              <li><a href = "../../index.html" >HOMEPAGE</a></li>
+            </ul>
+          </nav>
+     
+    <!-- CONTENUTO INGREDIENTI -->    
+    <div class="container">
+        <section class="content">
+            <h2 class="section-title">La nostra pizza</h2>
+            <div class="separator"></div>
+        
+       
         <h2>Ingredienti</h2>
         <ul>
-            <li>450 g Farina</li>
-            <li>2 grammi lievito di birra fresco</li>
-            <li>1/2 chucchiaino zucchero</li>
-            <li>un barattolo di nutella</li>
-            <li>250 ml acqua</li>
-            <li>10 gr di sale</li>
-            <li>1 cucchiaino di olio extravergine di oliva</li>
-            <li>granella di nocciole</li>
-        </ul>   
-
-        <h2>Procedimento</h2>
-        <ol>
-            <li>Pesare e misurare tutti gli ingredienti. Sciogliere il lievito di birra fresco in 100 ml<br> 
-             d’acqua presa dal totale, unire lo zucchero, mescolare attivare qualche minuto.</li>
-            <li>Versare la farina nella ciotola impastatrice, unire l’acqua, il lievito ed iniziare ad impastare,<br> 
-             il sale e continuare ad impastare fino ad ottenere un composto quasi omogeneo, in ultimo incorporare<br> l’olio extravergine d’oliva.</li>
-            <li>Trasferire l’impasto sul piano di lavoro e ultimare di impastare, sistemare nella ciotola,<br>
-             coprire con la pellicola trasparente e lasciare lievitare fino al raddoppio, meglio se dentro il forno spento e la luce accesa.</li>
-            <li>Capovolgere l’impasto raddoppiato sul piano di lavoro leggermente infarinato,<br>
-             dare un paio di pieghe e con un taglio netto ottenere 4 pezzature di circa 170 gr o del peso che si desidera.</li>
-            <li>Avvolgere i panetti su se stessi, disporli su una placca infarinata e lasciare lievitare fino al raddoppio,<br>
-             di nuovo dentro il forno spento e la luce accesa.</li>
-            <li>Allargare i panetti lievitati su un piano poco infarinato, bucherellare la superficie per non farla gonfiare<br>
-             in cottura e cuocere in forno già caldo a 240° o nel fornetto per pizza per tre minuti.</li>
-            <li>Sfornare, lasciare intiepidire, spalmare con la nutella, ultimare con la granella di nocciole e servire!</li>
-        </ol>   
-            
+            <li><span class="tipo-ingred">450 gr Farina</span></li>
+            <li><span class="tipo-ingred">2 grammi lievito di birra fresco</span></li>
+            <li><span class="tipo-ingred">1/2 chucchiaino zucchero</span></li>
+            <li><span class="tipo-ingred">un barattolo di nutella</span></li>
+            <li><span class="tipo-ingred">10 gr di sale</span></li>
+            <li><span class="tipo-ingred">250 ml acqua</span></li>
+            <li><span class="tipo-ingred">1 cucchiaino di olio extravergine di oliva</span></li>
+            <li><span class="tipo-ingred">granella di nocciole</span></li>
+        </ul>
+    <!-- END CONTENUTO INGREDIENTI --> 
         
+    <!-- CONTENUTO RICETTA -->
+        <h2>Ricetta</h2>
+        <ol class="wrapper">
+            <li><span class ="tipo-ricetta">Pesare e misurare tutti gli ingredienti. Sciogliere il lievito di birra in 100 ml 
+             d’acqua, unire lo zucchero, mescolare qualche minuto.</span></li>
+            <li><span class="tipo-ricetta">Versare la farina nella ciotola impastatrice, unire l’acqua, il lievito ed iniziare ad impastare 
+            fino ad ottenere un composto quasi omogeneo In ultimo incorporare l’olio extravergine d’oliva.</span></li>
+            <li><span class="tipo-ricetta">Trasferire l’impasto sul piano di lavoro e ultimare di impastare, sistemare nella ciotola,
+             coprire con la pellicola trasparente e lasciare lievitare fino al raddoppio.</span></li>
+            <li><span class="tipo-ricetta">Capovolgere l’impasto raddoppiato sul piano di lavoro leggermente infarinato,
+             dare un paio di pieghe e con un taglio netto ottenere 4 pezzature di circa 170 gr o del peso che si desidera.</span></li>
+            <li><span class="tipo-ricetta">Avvolgere i panetti su se stessi, disporli su una placca infarinata e lasciare lievitare fino al raddoppio,
+             di nuovo dentro il forno spento e la luce accesa.</span></li>
+            <li><span class="tipo-ricetta">Allargare i panetti lievitati su un piano poco infarinato, bucherellare la superficie per non farla gonfiare
+             in cottura e cuocere in forno già caldo a 240°. Sfornare, lasciare intiepidire, spalmare con la nutella, ultimare 
+             con la granella di nocciole e servire! </span></li>
+            
+        </ol>
+     <!--END CONTENUTO RICETTA -->
+            
+     <!--TABELLA NUTRIZIONALE -->   
         <h2>Tabella nutrizionale</h2>  
-        <table border="2">
+        <table class="nutrizionale">
             <thead>
                 <tr>
                     <th>valori nutrizionali</th>
@@ -69,10 +92,78 @@
                 </tr>
             </tbody>
 
-        </table>  
+        </table>
+    <!--END TABELLA NUTRIZIONALE -->  
+    
+    </section> 
+       
+    </div> 
+    
+    
+    <!-- Footer -->
+    <footer>
+        <section class="opening-hours">
+          <h2 class="footer-section-title">Orari di Apertura</h2>
+          <table class="ora">
+            <thead>
+              <tr>
+                <th>Giorno</th>
+                <th>Orario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lunedì</td>
+                <td>Chiuso</td>
+              </tr>
+              <tr>
+                <td>Martedì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Mercoledì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Giovedì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Venerdì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Sabato</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Domenica</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="where-we-are">
+          <h2 class="footer-section-title">Dove Siamo</h2>
+          <iframe
+            width="100%"
+            frameborder ="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=8.286395072937013%2C39.97725164260922%2C8.323259353637697%2C40.000563846393405&amp;layer=mapnik&amp;marker=39.988909359691846%2C8.304836049999949"
+            style="border: 1px solid black"
+          ></iframe>
+        </section>
+        <section class="where-we-are">
+          <h2 class="footer-section-title">Credits</h2>
+          Questo sito è realizzato dagli studenti della TNV Academy VII
+        </section>
+      </footer>
+      <!--end of Footer -->  
+    
+  
+  
 
-        <h3><a href="/tnv-academy-VII/the-net-pizza/index.html">homepage</a></h3>
-
-            
     </body>
 </html>
