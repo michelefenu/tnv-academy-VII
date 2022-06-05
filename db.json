@@ -1,0 +1,84 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Tagliere di salumi",
+      "price": "12"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "Antipasto di mare",
+      "price": "15"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Zuppa di cozze",
+      "price": "8"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "title": "Pasta alla Carbonara",
+      "price": "9"
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "title": "Pasta Cacio e Pepe",
+      "price": "9"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "title": "Bucatini all'Amatriciana",
+      "price": "7"
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "title": "Risotto ai Funghi",
+      "price": "10"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "Gnocchi al Formaggio",
+      "price": "10"
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "title": "Seadas",
+      "price": "6"
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "title": "Tiramisù",
+      "price": "5"
+    },
+    {
+      "id": 11,
+      "categoryId": 3,
+      "title": "Cheesecake",
+      "price": "6"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Antipasti"
+    },
+    {
+      "id": 2,
+      "name": "Primi"
+    },
+    {
+      "id": 3,
+      "name": "Dolci"
+    }
+  ]
+}
