@@ -115,6 +115,10 @@ nav li {
     padding-left: 0;
 }
 
+.menu ol li {
+    font-family: 'Josefine Sans', cursive;
+}
+
 .menu ul li {
     margin: 8px 16px 2px 0;
     padding: 12px;
