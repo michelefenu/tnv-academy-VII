@@ -28,7 +28,7 @@ header {
 
 header h1 {
     color: white;
-    font-size: 128px;
+    font-size: 10vw;
     margin: 0;
     text-shadow: 2px 2px 4px black;
 }
@@ -36,7 +36,7 @@ header h1 {
 header p {
     color: #c1922e;
     font-family: 'Pacifico', cursive;
-    font-size: 2.3rem;
+    font-size: 4vw;
     text-align: center;
     margin: 0;
     text-shadow: 2px 2px 4px black;
@@ -108,6 +108,38 @@ nav li {
     font-size: 1.5em;
 }
 
+.menu ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu ol li {
+    margin: 8px 16px 2px 0;
+    padding: 12px;
+    width: 850px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(228, 228, 228);
+    position: relative;
+}
+
+.menu ol li span {
+    display: block;
+}
+
+.step-recipe {
+    font-family: 'Josefine Sans', cursive;
+    color:black;
+    height: 50px;
+    padding-top: 8px;
+    font-weight: 300;
+    font-size: .9em;
+    text-align: justify;
+}
+
 .menu ul {
     display: flex;
     flex-wrap: wrap;
@@ -158,7 +190,9 @@ nav li {
 
 .nutritional-values table td {
     background-color: #bed8e5;
-    font-family: 'Josefine Sans';
+    font-family: 'Josefine Sans',cursive;
+    font-size: .9em;
+    font-weight: 300;
     text-align: left;
 }
 
