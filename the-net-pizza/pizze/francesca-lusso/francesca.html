@@ -2,14 +2,27 @@
 <html>
     <head>
         <title>The Net Pizza</title>
+        <link rel="stylesheet" href="styles/theme.css" />
     </head>
     <body>
-        <img src="immagini/pizza.jpg">
+      <!--HEADER-->
+      <header>
         <h1>Pizza Francesca</h1>
         <p>La pizza Francesca è composta da ingredienti freschi e leggeri, per godere della bontà della pizza senza appesantirsi troppo. 
-            Basterà un solo morso per innamorarsi di questa buonissima e freschissima variante.
+          Basterà un solo morso per innamorarsi di questa buonissima e freschissima variante.
         </p>
-        <h2>Ingredienti</h2>
+      </header>
+      <!-- END HEADER-->
+      <nav>
+        <h1>THE NET PIZZA</h1>
+        <ul>
+          <li><a href="../../index.html">HOME</a></li>
+          <li><a href>CONTATTI</a></li>
+        </ul>
+      </nav>
+      
+      <div class="container">
+        <h2 class="section-title">Ingredienti</h2>
         <ul>
           <li>1 sfolgia pronta per pizza</li>
           <li>200 gr di <a href="https://it.wikipedia.org/wiki/Mozzarella">mozzarella</a></li>
@@ -20,19 +33,24 @@
           <li>Foglie di <a href="https://it.wikipedia.org/wiki/Spinacia_oleracea">spinaci</a> a piacere</li>
           <li>Foglie di <a href="https://it.wikipedia.org/wiki/Ocimum_basilicum">basilico</a></li>
         </ul>
+      </div>
 
-        <h2>Preparazione</h2>
-        <ol>
-          <li>Tagliate la mozzarella a dadini e tenetela da parte per condire la vostra pizza prima di infornarla.</li>
-          <li>Prendete la base già pronta e disponetela su una teglia precedentamente unta con un filo d'olio extravergine di oliva, 
-              mettete il sugo di pomodoro, spalmate della ricotta e disponete i dadini di mozzarella.</li>
-          <li>Prima di infornare aggiungete un filo d'olio extravergine di oliva e aggiungete le foglie di spinaci</li>
-          <li>Infornate la pizza a 220° per 20 minuti circa.</li>
-          <li>Servite e gustate la vostra pizza.</li>
-        </ol>
+      <div class="container">
+        <h2 class="section-title">Preparazione</h2>
+          <ol>
+            <li>Tagliate la mozzarella a dadini e tenetela da parte per condire la vostra pizza prima di infornarla.</li>
+            <li>Prendete la base già pronta e disponetela su una teglia precedentamente unta con un filo d'olio extravergine di oliva, 
+                mettete il sugo di pomodoro, spalmate della ricotta e disponete i dadini di mozzarella.</li>
+            <li>Prima di infornare aggiungete un filo d'olio extravergine di oliva e aggiungete le foglie di spinaci</li>
+            <li>Infornate la pizza a 220° per 20 minuti circa.</li>
+            <li>Servite e gustate la vostra pizza.</li>
+          </ol>
+      </div>
 
-        <h2>Valori Nutrizionali:</h2>
-        <table border="1">
+      <div class="container">
+        <h2  class="section-title">Valori Nutrizionali:</h2>
+        <section class="menu">
+          <table border="1">
             <thead>
               <tr>
                 <th>Macronutrienti</th>
@@ -63,8 +81,68 @@
             </tbody>
           </table>
           <br>
-          <p>
-              Torna alla pagina <a href="http://127.0.0.1:5500/tnv-academy-VII/the-net-pizza/index.html">precedente</a>
-          </p>
+        </section>
+      </div>
+      <!--FOOTER-->
+      <footer>
+        <section class="opening-hours">
+          <h2 class="footer-section-title">Orari di Apertura</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Giorno</th>
+                <th>Orario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lunedì</td>
+                <td>Chiuso</td>
+              </tr>
+              <tr>
+                <td>Martedì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Mercoledì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Giovedì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Venerdì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Sabato</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Domenica</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="where-we-are">
+          <h2 class="footer-section-title">Dove Siamo</h2>
+          <iframe
+            width="100%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=8.286395072937013%2C39.97725164260922%2C8.323259353637697%2C40.000563846393405&amp;layer=mapnik&amp;marker=39.988909359691846%2C8.304836049999949"
+            style="border: 1px solid black"
+          ></iframe>
+        </section>
+        <section class="where-we-are">
+          <h2 class="footer-section-title">Credits</h2>
+          Questo sito è realizzato dagli studenti della TNV Academy VII
+        </section>
+      </footer>
+      <!--END FOOTER-->
     </body>
 </html>
