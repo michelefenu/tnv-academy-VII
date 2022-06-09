@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,500,800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url('../immagini/pizza.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 3px 5px lightgray;
+}
+
+header h1 {
+    color: yellowgreen;
+    font-size: 128px;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+header p {
+    color: yellowgreen;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(169, 1, 1);
+    z-index: 10;
+    border-bottom: 1px solid rgb(16, 9, 9);
+}
+
+nav ul {
+    margin-right: 36px;
+}
+
+nav h1 {
+    margin-left: 36px;
+    color: black;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 16px;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.container section {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.section-title {
+    color: rgb(169, 1, 1);
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-evenly;
+    background-color: #8C2703;
+    color: white;
+    box-shadow: 0 -3px 5px lightgray;
+}
+
+footer section {
+    width: 300px;
+    margin: 8px;
+    padding: 32px;
+}
+
+table {
+    border: 1px solid lightgray;
+    width: 300px;
+}
+
+table td, table th {
+    padding: 4px;
+    text-align: left;
+}
+
+table th {
+    background-color: white;
+    color: #8C2703;
+}

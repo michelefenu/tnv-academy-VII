@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="IT">
     <head>
         <title>Pizza Luca</title>
+        <link rel="stylesheet" href="styles/theme.css">
     </head>
     <body>
-        <img src="images/pizza.JPG" width="500"> 
-        <h1>Pizza Luca</h1>
-        <p>La pizza Luca è composta da guanciale rigorosamente in cottura, patate al forno, uovo all occhio di bue e scaglie di grana.</p>
-        <p>Si consiglia come abbinamento per la pizza una Weissbier ghiacciata.</p>
-
-        <h3>Lista ingredienti</h3>
-        <ul>
-            <li><a href="https://it.wikipedia.org/wiki/Guanciale_(gastronomia)" target="_blank">Guanciale</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Patata_(alimento)" target="_blank">Patate al forno</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Uovo_all%27occhio_di_bue" target="_blank">Uovo all occhio di bue</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Formaggio_grana" target="_blank">Grana</a></li>
-        </ul>
-
-        <h3>Valori nutrizionali</h3>
-        <table border="1">
-            <thead>
-              <tr>
-                <th>Kcal</th>
-                <th>Peso</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1000</td>
-                <td>350 g</td>
-              </tr>
-        </table>
         
-        <h2>Lascia una recensione!</h2>
+        <header>
+        <h1>Pizza Luca</h1>
+        <p>Si consiglia come abbinamento per la pizza una Weissbier ghiacciata.</p>
+        <p class="paragraph">La pizza Luca è composta da guanciale rigorosamente in cottura, patate al forno, uovo all occhio di bue e scaglie di grana.</p>
+        </header>
+
+        <nav>
+            <h1>THE NET PIZZA</h1>
+            <ul>
+              <li><a href="../../index.html">HOME</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <section class="section-pizza">
+                <h3 class="section-title">Lista ingredienti</h3>
+                <ul>
+                    <li><span><a href="https://it.wikipedia.org/wiki/Guanciale_(gastronomia)" target="_blank">Guanciale</a></span></li>
+                    <li><span><a href="https://it.wikipedia.org/wiki/Patata_(alimento)" target="_blank">Patate al forno</a></span></li>
+                    <li><span><a href="https://it.wikipedia.org/wiki/Uovo_all%27occhio_di_bue" target="_blank">Uovo all occhio di bue</a></span></li>
+                    <li><span><a href="https://it.wikipedia.org/wiki/Formaggio_grana" target="_blank">Grana</a></span></li>   
+                </ul>
+            
+                <h3 class="section-title">Ricetta</h3>
+                <ol>
+                    <li><a href="https://ricette.giallozafferano.it/Impasto-per-pizza.html" target="_blank"> Preparare l'impasto per pizza</a></li>
+                    <li>Far lievitare l impasto per qualche ora</li>
+                    <li>Stendere una palla di impasto da 250 gr</li>
+                    <li>Versare del sugo e ricoprire la pizza</li>
+                    <li>Aggiungere gli ingredienti e infornare</li>
+                </ol>
+            
+                <h3 class="section-title">Valori nutrizionali</h3>
+                <table class="value-table">
+                    <thead>
+                      <tr>
+                        <th>Kcal</th>
+                        <th>Peso</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1000</td>
+                        <td>350 g</td>
+                      </tr>
+                </table>
+            </section>
+        
+        <h2 class="section-title">Lascia una recensione!</h2>
         <h3>Per migliorare i nostri prodotti dai una valutazione per questa pizza compilando qui sotto.</h3>
 
         <form>
@@ -52,22 +74,86 @@
             </fieldset>
             <fieldset>
                 <legend>Che voto dai all impasto?</legend>
-                <input type="radio" name="valutation"> Da 0 a 3
+                <input type="radio" name="valutation-1"> Da 0 a 3
                 <br>
-                <input type="radio" name="valutation"> Da 3 a 6
+                <input type="radio" name="valutation-1"> Da 3 a 6
                 <br>
-                <input type="radio" name="valutation"> da 6 a 10
+                <input type="radio" name="valutation-1"> da 6 a 10
             </fieldset>
             <fieldset>
                 <legend>Ti è piaciuto l'abbinamento degli ingredienti e la birra consigliata? </legend>
-                <input type="radio" name="valutation"> Si
+                <input type="radio" name="valutation-2"> Si
                 <br>
-                <input type="radio" name="valutation"> No
+                <input type="radio" name="valutation-2"> No
             </fieldset>
             <label for="order">Scrivi cosa miglioreresti</label>
             <br>
             <textarea cols="50" rows="7" id="order" name="order"></textarea>
-            <h2><a href="http://127.0.0.1:5500/the-net-pizza/"> The Net Pizza</a></h2>
-        </form>   
+            <br>
+            <input type="submit" value="Invia">
+        </form>  
+        </div>
+
+         <!-- Footer -->
+
+    <footer>
+        <section class="opening-hours">
+          <h2 class="footer-section-title">Orari di Apertura</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Giorno</th>
+                <th>Orario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lunedì</td>
+                <td>Chiuso</td>
+              </tr>
+              <tr>
+                <td>Martedì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Mercoledì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Giovedì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Venerdì</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Sabato</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+              <tr>
+                <td>Domenica</td>
+                <td>19:00 - 24:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="where-we-are">
+          <h2 class="footer-section-title">Dove Siamo</h2>
+          <iframe
+            width="100%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=8.286395072937013%2C39.97725164260922%2C8.323259353637697%2C40.000563846393405&amp;layer=mapnik&amp;marker=39.988909359691846%2C8.304836049999949"
+            style="border: 1px solid black">
+          </iframe>
+        </section>
+        <section class="where-we-are">
+          <h2 class="footer-section-title">Credits</h2>
+          Questo sito è realizzato dagli studenti della TNV Academy VII
+        </section>
+      </footer>
     </body>
 </html>

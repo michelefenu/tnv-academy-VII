@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,500,800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url('../images/image-pizza.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 3px 5px lightgrey;
+}
+
+header h1 {
+    color: white;
+    font-size: 128px;
+    margin: 0;
+    text-shadow: 2px 2px 4px #A67951;
+}
+
+header p {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px #A67951;
+}
+
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #D9BD32;
+    z-index: 10;
+    border-bottom: 1px solid lightgray;
+}
+
+nav ul {
+    margin-right: 36px;
+}
+
+nav h1 {
+    margin-left: 36px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 16px;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.container section {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.section-title {
+    color: #A67951;
+    text-align: left;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.section-pizza h3 {
+    font-size: 1.5em;
+}
+
+.section-pizza ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section-pizza ul li {
+    margin: 8px 16px 8px 0;
+    padding: 12px;
+    width: 192px;
+    height: 120px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(228, 228, 228);
+    position: relative;
+}
+
+.section-pizza ul li span {
+    display: block;
+}
+
+table {
+    border: 1px solid lightgray;
+    width: 300px;
+}
+
+table td, table th {
+    padding: 4px;
+    text-align: left;
+}
+
+table th {
+    background-color: white;
+    color: #A67951;
+}
+
+.value-table{
+    background-color: white;
+    color: #A67951;
+}
+
+input[type="submit"] {
+    margin: 8px 0;
+    background-color: #A67951;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-evenly;
+    background-color: #D9BD32;
+    color: white;
+    box-shadow: 0 -3px 5px lightgray;
+}
+
+footer section {
+    width: 300px;
+    margin: 8px;
+    padding: 32px;
+}
