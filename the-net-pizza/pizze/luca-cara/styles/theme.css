@@ -15,7 +15,7 @@ h1, h2, h3, h4 {
 header {
     width: 100%;
     height: 700px;
-    background-image: url('../images/Pizza.jpg');
+    background-image: url('../images/image-pizza.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
