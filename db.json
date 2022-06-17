@@ -14,12 +14,12 @@
         "Soppressata",
         "Salame Piccante"
       ],
-      "vegetarian": false,
+      "available": true,
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -33,7 +33,7 @@
       "description": "Una selezione di antipasti tradizionali a base di pesce.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/antipasto-mare.jpg",
       "price": "15",
-      "vegetarian": false,
+      "available": true,
       "ingredients": [
         "Polpo",
         "Cozze",
@@ -44,8 +44,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -59,7 +59,7 @@
       "description": "Zuppa di cozze e arselle su crostini piccanti.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/zuppa-mare.jpg",
       "price": "10",
-      "vegetarian": false,
+      "available": false,
       "ingredients": [
         "Cozze",
         "Vongole",
@@ -69,8 +69,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -84,7 +84,7 @@
       "description": "Un classico intramontabile della cucina romana.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/carbonara.jpg",
       "price": "9",
-      "vegetarian": false,
+      "available": true,
       "ingredients": [
         "Pasta",
         "Uova",
@@ -94,8 +94,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -109,7 +109,7 @@
       "description": "Pepe nero, formaggio pecorino romano e pasta.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/cacio-pepe.jpg",
       "price": "8",
-      "vegetarian": true,
+      "available": true,
       "ingredients": [
         "Pasta",
         "Pecorino Romano",
@@ -118,8 +118,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -133,7 +133,7 @@
       "description": "Piatto tipico di Amatrice, cittadina in provincia di Rieti.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/amatriciana.jpg",
       "price": "8",
-      "vegetarian": false,
+      "available": true,
       "ingredients": [
         "Pasta",
         "Pancetta",
@@ -142,8 +142,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -157,7 +157,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/fregola-arselle.jpg",
       "price": "7",
-      "vegetarian": false,
+      "available": false,
       "ingredients": [
         "Fegola",
         "Vongole",
@@ -167,8 +167,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -182,7 +182,7 @@
       "description": "Un piatto invernale, solo con porcini regionali raccolti a mano.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/risotto-funghi.jpg",
       "price": "10",
-      "vegetarian": true,
+      "available": false,
       "ingredients": [
         "Riso Carnaroli",
         "Funghi Porcini",
@@ -192,8 +192,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -207,7 +207,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/seadas.jpg",
       "price": "6",
-      "vegetarian": true,
+      "available": true,
       "ingredients": [
         "Farina",
         "Formaggio",
@@ -216,8 +216,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -231,7 +231,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/cheesecake.jpg",
       "price": "5",
-      "vegetarian": true,
+      "available": true,
       "ingredients": [
         "Farina",
         "Formaggio",
@@ -240,8 +240,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
@@ -255,7 +255,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/tiramisu.jpg",
       "price": "6",
-      "vegetarian": true,
+      "available": true,
       "ingredients": [
         "Savoiardi",
         "Zabaione",
@@ -264,8 +264,8 @@
       "allergens": ["Glutine"],
       "nutritionalValues": {
         "kcal": "145",
-        "total fat": "6g",
-        "saturated fat": "6g",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
         "cholesterol": "53mg",
         "carbohydrate": "1,5g",
         "sodium": "1203 mg",
