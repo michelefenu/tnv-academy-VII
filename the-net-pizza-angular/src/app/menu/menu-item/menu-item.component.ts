@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Piatto } from 'src/app/@models/menu';
 
 @Component({
   selector: 'app-menu-item',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuItemComponent implements OnInit {
 
+  @Input() piatto: Partial<Piatto> = {};
+
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

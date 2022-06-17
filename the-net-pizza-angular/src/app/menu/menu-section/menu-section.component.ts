@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Piatto } from 'src/app/@models/menu';
 
 @Component({
   selector: 'app-menu-section',
@@ -7,7 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class MenuSectionComponent implements OnInit {
 
-  @Input() sectionTitle: string = 'Pietanza sconosciuta';
+  @Input() piatti: Piatto[] = [];
+  @Input() sectionTitle: string = '';
 
   constructor() { }
 

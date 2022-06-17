@@ -12,6 +12,7 @@ import { MenuDetailComponent } from './menu-detail/menu-detail.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MenuSectionComponent } from './menu/menu-section/menu-section.component';
 import { MenuItemComponent } from './menu/menu-item/menu-item.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { MenuItemComponent } from './menu/menu-item/menu-item.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgbModule
   ],
   providers: [],
