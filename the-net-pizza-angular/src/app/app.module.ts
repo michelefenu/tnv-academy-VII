@@ -13,6 +13,8 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { MenuSectionComponent } from './menu/menu-section/menu-section.component';
 import { MenuItemComponent } from './menu/menu-item/menu-item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AddPiattoComponent } from './add-piatto/add-piatto.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,12 +27,14 @@ import { HttpClientModule } from '@angular/common/http';
     MenuDetailComponent,
     ContactsComponent,
     MenuSectionComponent,
-    MenuItemComponent
+    MenuItemComponent,
+    AddPiattoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     NgbModule
   ],
   providers: [],
