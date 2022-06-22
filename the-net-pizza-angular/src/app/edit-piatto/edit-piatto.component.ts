@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Piatto } from '../@models/menu';
 import { MenuService } from '../@services/menu.service';
 
@@ -16,6 +16,7 @@ export class EditPiattoComponent implements OnInit {
 
   constructor(
     private menuService: MenuService,
+    private router: Router,
     activatedRoute: ActivatedRoute
   ) {
     this.piattoId = activatedRoute.snapshot.params['piattoId'];
@@ -33,9 +34,21 @@ export class EditPiattoComponent implements OnInit {
   onSubmit(form: NgForm) {
     form.control.markAllAsTouched();
     if (form.valid) {
-      this.menuService.addPiatto(form.value).subscribe({
-        next: (res) => console.log(res),
-      });
+      if (this.isEditMode) {
+        this.menuService.editPiatto(this.piattoId, form.value).subscribe({
+          next: (res) => {
+            console.log(res);
+            this.router.navigateByUrl('/');
+          },
+        });
+      } else {
+        this.menuService.addPiatto(form.value).subscribe({
+          next: (res) => {
+            console.log(res);
+            this.router.navigateByUrl('/');
+          },
+        });
+      }
     }
   }
 }

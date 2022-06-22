@@ -15,6 +15,25 @@ export const getPiatti = async (req, res) => {
     }
 }
 
+export const getPiatto = async (req, res) => {
+    try {
+        const piatto = await Piatto.findOne({
+            where: {
+                id: req.params.id
+            }
+        });
+        
+        if (piatto) {
+            res.send(piatto);
+        } else {
+            res.sendStatus(404);
+        }
+    } catch (err) {
+        console.log(err);
+        res.sendStatus(500);
+    }
+}
+
 export const addPiatto = async (req, res) => {
     try {
         const piatto = await Piatto.create(req.body);
