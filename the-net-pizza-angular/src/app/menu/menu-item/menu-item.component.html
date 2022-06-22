@@ -8,7 +8,7 @@
     <h5 class="card-title">
       <a [hidden]="!piatto.available" href [routerLink]="['/menu', piatto.id]">{{ piatto.title | titlecase }}</a> 
       <span [hidden]="piatto.available">{{ piatto.title | titlecase }}</span>
-      - {{ piatto.price | currency }}</h5>
+      - {{ piatto.price |  currency:'EUR':'symbol':'1.0' }}</h5>
     <p class="card-text">
       {{ piatto.description }}
     </p>

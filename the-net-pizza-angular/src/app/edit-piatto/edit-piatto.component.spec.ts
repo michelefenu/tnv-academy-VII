@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddPiattoComponent } from './add-piatto.component';
+import { EditPiattoComponent } from './edit-piatto.component';
 
 describe('AddPiattoComponent', () => {
-  let component: AddPiattoComponent;
-  let fixture: ComponentFixture<AddPiattoComponent>;
+  let component: EditPiattoComponent;
+  let fixture: ComponentFixture<EditPiattoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AddPiattoComponent ]
+      declarations: [ EditPiattoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AddPiattoComponent);
+    fixture = TestBed.createComponent(EditPiattoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

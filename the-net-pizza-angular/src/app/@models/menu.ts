@@ -4,7 +4,7 @@ export interface Piatto {
   title: string;
   description: string;
   imageUrl: string;
-  price: string;
+  price: number;
   ingredients: string[];
   available: boolean;
   allergens: string[];
