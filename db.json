@@ -6,7 +6,7 @@
       "title": "Tagliere di salumi",
       "description": "Un assortimento di salumi regionali ed extraregionali.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/tagliere-salumi.jpg",
-      "price": "12",
+      "price": 12,
       "ingredients": [
         "Prosciutto",
         "Salame",
@@ -32,7 +32,7 @@
       "title": "Antipasto di Mare",
       "description": "Una selezione di antipasti tradizionali a base di pesce.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/antipasto-mare.jpg",
-      "price": "15",
+      "price": 15,
       "available": true,
       "ingredients": [
         "Polpo",
@@ -58,7 +58,7 @@
       "title": "Zuppa di Mare",
       "description": "Zuppa di cozze e arselle su crostini piccanti.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/zuppa-mare.jpg",
-      "price": "10",
+      "price": 10,
       "available": false,
       "ingredients": [
         "Cozze",
@@ -83,7 +83,7 @@
       "title": "Carbonara",
       "description": "Un classico intramontabile della cucina romana.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/carbonara.jpg",
-      "price": "9",
+      "price": 9,
       "available": true,
       "ingredients": [
         "Pasta",
@@ -108,7 +108,7 @@
       "title": "Cacio e Pepe",
       "description": "Pepe nero, formaggio pecorino romano e pasta.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/cacio-pepe.jpg",
-      "price": "8",
+      "price": 8,
       "available": true,
       "ingredients": [
         "Pasta",
@@ -132,7 +132,7 @@
       "title": "Amatriciana",
       "description": "Piatto tipico di Amatrice, cittadina in provincia di Rieti.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/amatriciana.jpg",
-      "price": "8",
+      "price": 8,
       "available": true,
       "ingredients": [
         "Pasta",
@@ -156,7 +156,7 @@
       "title": "Fregola con Arselle",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/fregola-arselle.jpg",
-      "price": "7",
+      "price": 7,
       "available": false,
       "ingredients": [
         "Fegola",
@@ -181,7 +181,7 @@
       "title": "Risotto ai Funghi",
       "description": "Un piatto invernale, solo con porcini regionali raccolti a mano.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/risotto-funghi.jpg",
-      "price": "10",
+      "price": 10,
       "available": false,
       "ingredients": [
         "Riso Carnaroli",
@@ -206,7 +206,7 @@
       "title": "Seadas",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/seadas.jpg",
-      "price": "6",
+      "price": 6,
       "available": true,
       "ingredients": [
         "Farina",
@@ -230,7 +230,7 @@
       "title": "Cheesecake",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/cheesecake.jpg",
-      "price": "5",
+      "price": 5,
       "available": true,
       "ingredients": [
         "Farina",
@@ -254,7 +254,7 @@
       "title": "Tiramisù",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "imageUrl": "https://michelefenu.github.io/tnv-academy-VII/the-net-pizza-bootstrap/assets/images/tiramisu.jpg",
-      "price": "6",
+      "price": 6,
       "available": true,
       "ingredients": [
         "Savoiardi",
