@@ -13,6 +13,7 @@ export class EditPiattoComponent implements OnInit {
   piatto: Partial<Piatto> = {};
   isEditMode = false;
   piattoId: number;
+  currentRate = 0;
 
   constructor(
     private menuService: MenuService,
@@ -33,7 +34,10 @@ export class EditPiattoComponent implements OnInit {
 
   onSubmit(form: NgForm) {
     form.control.markAllAsTouched();
+
     if (form.valid) {
+      form.value['rating'] = this.currentRate;
+      
       if (this.isEditMode) {
         this.menuService.editPiatto(this.piattoId, form.value).subscribe({
           next: (res) => {

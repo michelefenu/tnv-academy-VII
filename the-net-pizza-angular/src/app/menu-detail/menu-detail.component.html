@@ -1,2 +1,5 @@
 <h1>{{ piatto.title}} </h1>
 <p>{{ piatto.description }} </p>
+
+<button class="btn btn-primary" [routerLink]="['/editPiatto', piatto.id]">Modifica</button>
+<button class="btn btn-danger" (click)="deletePiatto(piatto.id)">Elimina</button>

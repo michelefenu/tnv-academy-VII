@@ -8,9 +8,11 @@ import { Piatto } from 'src/app/@models/menu';
 })
 export class MenuItemComponent implements OnInit {
 
-  @Input() piatto: Partial<Piatto> = {};
+  @Input() piatto:Piatto = {} as Piatto;
 
-  constructor() { }
+
+  constructor() {
+   }
 
   ngOnInit(): void {
     

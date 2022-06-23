@@ -16,6 +16,9 @@ const Piatto = db.define('piatti', {
   imageUrl: {
     type:  DataTypes.STRING
   },
+  rating: {
+    type: DataTypes.DOUBLE
+  },
   price: {
     type: DataTypes.INTEGER
   },

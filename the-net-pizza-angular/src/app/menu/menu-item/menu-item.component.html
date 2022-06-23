@@ -1,14 +1,22 @@
 <div class="card shadow" [class.not-available]="!piatto.available">
-  <img
-    [src]="piatto.imageUrl"
-    class="card-img-top"
-    [alt]="piatto.title"
-  />
+  <img [src]="piatto.imageUrl" class="card-img-top" [alt]="piatto.title" />
   <div class="card-body">
     <h5 class="card-title">
-      <a [hidden]="!piatto.available" href [routerLink]="['/menu', piatto.id]">{{ piatto.title | titlecase }}</a> 
+      <a
+        [hidden]="!piatto.available"
+        href
+        [routerLink]="['/menu', piatto.id]"
+        >{{ piatto.title | titlecase }}</a
+      >
       <span [hidden]="piatto.available">{{ piatto.title | titlecase }}</span>
-      - {{ piatto.price |  currency:'EUR':'symbol':'1.0' }}</h5>
+      - {{ piatto.price | currency: "EUR":"symbol":"1.0" }}
+    </h5>
+    <ngb-rating
+      [rate]="piatto.rating"
+      id="rating"
+      [max]="5"
+      [readonly]="true"
+    ></ngb-rating>
     <p class="card-text">
       {{ piatto.description }}
     </p>
