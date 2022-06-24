@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import './variables.scss';
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
@@ -8,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,500,800&display=swap');
 
 a {
-    color: #730217;
+    color: $primary;
     text-decoration: none;
 }
 
@@ -51,6 +52,6 @@ h1, h2, h3, h4 {
 }
 
 ngb-rating {
-    color: #c80125;
+    color: $primary;
     font-size: 1.5rem;
 }

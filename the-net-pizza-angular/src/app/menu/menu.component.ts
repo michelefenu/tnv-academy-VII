@@ -35,8 +35,8 @@ export class MenuComponent implements OnInit {
   applyFilter() {
     this.filteredPiatti = this.piatti.filter((x) =>
       x.title.toLowerCase().includes(this.filterText.toLowerCase()) ||
-      x.description.toLowerCase().includes(this.filterText.toLowerCase()) ||
-      x.ingredients.find(x => x.toLowerCase().includes(this.filterText.toLowerCase()))
+      x.description.toLowerCase().includes(this.filterText.toLowerCase())
     );
   }
+
 }
