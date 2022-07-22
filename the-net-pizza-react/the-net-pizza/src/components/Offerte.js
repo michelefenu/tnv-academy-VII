@@ -5,14 +5,14 @@ const Offerte = (props) => {
 
   return (
     <div>
-      <h1>Pizze sotto i 5 euro</h1>
+      <h1>Pizze sotto i 9 euro</h1>
       <ul>
         {piatti
-          .filter((x) => x.prezzo <= 5)
+          .filter((x) => +x.price <= 9)
           .map((x, index) => {
             return (
               <li key={index}>
-                {x.nome} - {x.prezzo} €
+                {x.title} - {x.price} €
               </li>
             );
           })}

@@ -7,6 +7,7 @@ const TableHeader = () => {
         <th>Nome Piatto</th>
         <th>Categoria</th>
         <th>Prezzo</th>
+        <th>Action</th>
       </tr>
     </thead>
   );
